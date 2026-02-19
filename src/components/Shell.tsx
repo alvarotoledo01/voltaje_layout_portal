@@ -7,7 +7,7 @@ function NavItem({ to, label }: { to: string; label: string }) {
       to={to}
       className={({ isActive }) =>
         [
-          "px-3 py-2 rounded-lg text-sm font-medium transition",
+          "block px-3 py-2 rounded-lg text-sm font-medium transition whitespace-nowrap",
           isActive
             ? "bg-blue-600 text-white shadow-sm"
             : "text-slate-700 hover:text-slate-900 hover:bg-slate-100",
@@ -50,17 +50,17 @@ export default function Shell({ children }: { children: ReactNode }) {
               className="h-14 w-14 sm:h-16 sm:w-16 md:h-24 md:w-24 rounded-3xl object-contain bg-white"
             />
             <div className="leading-tight">
-              <div className="text-base font-semibold text-slate-900">
+              <div className="text-sm sm:text-base font-semibold text-slate-900">
                 Práctica supervisada
               </div>
-              <div className="text-xs text-slate-500">
+              <div className="hidden sm:block text-xs text-slate-500">
                 Diseño de Layout para Voltaje S.R.L.
               </div>
             </div>
           </div>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-2">
+          <nav className="hidden lg:flex items-center gap-2">
             {navItems.map((it) => (
               <NavItem key={it.to} to={it.to} label={it.label} />
             ))}
@@ -70,7 +70,7 @@ export default function Shell({ children }: { children: ReactNode }) {
           <button
             type="button"
             onClick={() => setMobileOpen((v) => !v)}
-            className="md:hidden inline-flex items-center justify-center rounded-lg border border-slate-200 bg-white/70 px-3 py-2 text-sm text-slate-700 hover:text-slate-900 hover:border-slate-300 hover:bg-white transition"
+            className="lg:hidden inline-flex items-center justify-center rounded-lg border border-slate-200 bg-white/70 px-3 py-2 text-sm text-slate-700 hover:text-slate-900 hover:border-slate-300 hover:bg-white transition"
             aria-label={mobileOpen ? "Cerrar menú" : "Abrir menú"}
             aria-expanded={mobileOpen}
           >
@@ -94,7 +94,7 @@ export default function Shell({ children }: { children: ReactNode }) {
 
           {/* Mobile nav */}
           {mobileOpen ? (
-            <nav className="md:hidden mt-3 rounded-2xl border border-slate-200 bg-white shadow-sm p-2">
+            <nav className="lg:hidden mt-3 rounded-2xl border border-slate-200 bg-white shadow-sm p-2">
               <div className="grid gap-1">
                 {navItems.map((it) => (
                   <NavItem key={it.to} to={it.to} label={it.label} />
