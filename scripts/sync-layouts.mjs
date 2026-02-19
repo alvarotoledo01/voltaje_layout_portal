@@ -5,7 +5,16 @@ import { fileURLToPath } from "node:url";
 const here = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(here, "..");
 
-const srcDir = path.resolve(projectRoot, "..", "layout", "assets");
+// Soportar:
+// - monorepo: <repo>/voltaje_layout_portal + <repo>/layout/assets  => ../layout/assets
+// - repo standalone: <repo> (portal) sin ../layout/assets          => fallback a public/layouts (ya versionado)
+// - variante: <repo>/layout/assets (si existe)                     => layout/assets
+const candidateSrcDirs = [
+  path.resolve(projectRoot, "..", "layout", "assets"),
+  path.resolve(projectRoot, "layout", "assets"),
+  path.resolve(projectRoot, "public", "layouts"),
+];
+const srcDir = candidateSrcDirs.find((d) => fs.existsSync(d)) || candidateSrcDirs[0];
 const destDir = path.resolve(projectRoot, "public", "layouts");
 
 const files = [

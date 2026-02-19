@@ -8,8 +8,8 @@
     "dev": "vite",
     "sync:layouts": "node scripts/sync-layouts.mjs",
     "prebuild": "npm run sync:layouts",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "node ./node_modules/vite/bin/vite.js build",
+    "preview": "node ./node_modules/vite/bin/vite.js preview"
   },
   "dependencies": {
     "react": "^18.3.1",
