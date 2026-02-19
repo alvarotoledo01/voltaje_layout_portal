@@ -110,17 +110,17 @@ export default function LayoutTable({ src }: { src: string }) {
       ) : payload === null ? (
         <div className="p-5 text-sm text-slate-600">Cargando tabla…</div>
       ) : (
-        <div className="max-h-[42vh] overflow-auto">
-          <table className="min-w-full text-sm">
+        <div className="max-h-[50vh] md:max-h-[42vh] overflow-auto">
+          <table className="min-w-[520px] w-full text-sm">
             <thead className="sticky top-0 bg-slate-50 text-slate-700">
               <tr>
-                <th className="text-left font-semibold px-4 py-3 border-b border-slate-200">
+                <th className="text-left font-semibold px-3 md:px-4 py-3 border-b border-slate-200">
                   Estante #
                 </th>
-                <th className="text-left font-semibold px-4 py-3 border-b border-slate-200">
+                <th className="text-left font-semibold px-3 md:px-4 py-3 border-b border-slate-200">
                   Categoría
                 </th>
-                <th className="text-left font-semibold px-4 py-3 border-b border-slate-200">
+                <th className="text-left font-semibold px-3 md:px-4 py-3 border-b border-slate-200">
                   Proximidad
                 </th>
               </tr>
@@ -131,13 +131,13 @@ export default function LayoutTable({ src }: { src: string }) {
                   key={`${r.shelf_num}-${r.categoria}-${r.proximidad}`}
                   className="odd:bg-white even:bg-slate-50/30"
                 >
-                  <td className="px-4 py-2 border-b border-slate-100 tabular-nums">
+                  <td className="px-3 md:px-4 py-2 border-b border-slate-100 tabular-nums whitespace-nowrap">
                     {r.shelf_num}
                   </td>
-                  <td className="px-4 py-2 border-b border-slate-100">
+                  <td className="px-3 md:px-4 py-2 border-b border-slate-100">
                     {r.categoria || "Sin asignar"}
                   </td>
-                  <td className="px-4 py-2 border-b border-slate-100">
+                  <td className="px-3 md:px-4 py-2 border-b border-slate-100 whitespace-nowrap">
                     <ProxBadge value={r.proximidad} />
                   </td>
                 </tr>

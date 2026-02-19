@@ -196,7 +196,7 @@ export default function Categorizacion() {
           <div className="p-5 text-sm text-slate-600">Cargando artículos…</div>
         ) : (
           <div className="max-h-[68vh] overflow-auto">
-            <table className="min-w-full text-sm">
+            <table className="min-w-[980px] w-full text-sm">
               <thead className="sticky top-0 bg-slate-50 text-slate-700">
                 <tr>
                   <th className="text-left font-semibold px-4 py-3 border-b border-slate-200">

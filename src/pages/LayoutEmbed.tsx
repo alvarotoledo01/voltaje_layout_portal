@@ -26,7 +26,7 @@ export default function LayoutEmbed({
 
   return (
     <section className="space-y-4">
-      <div className="flex items-end justify-between gap-4">
+      <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3">
         <div>
           <h1 className="text-2xl font-semibold tracking-tight">{title}</h1>
           {subtitle ? (
@@ -38,7 +38,7 @@ export default function LayoutEmbed({
           href={resolvedSrc}
           target="_blank"
           rel="noreferrer"
-          className="text-sm px-3 py-2 rounded-lg border border-slate-200 hover:border-slate-300 text-slate-700 hover:text-slate-900 hover:bg-slate-50 transition"
+          className="text-sm px-3 py-2 rounded-lg border border-slate-200 hover:border-slate-300 text-slate-700 hover:text-slate-900 hover:bg-slate-50 transition w-full sm:w-auto text-center"
         >
           Abrir en nueva pestaña
         </a>
@@ -48,8 +48,7 @@ export default function LayoutEmbed({
         <iframe
           title={title}
           src={resolvedSrc}
-          className="w-full"
-          style={{ height: "78vh" }}
+          className="w-full h-[70vh] sm:h-[74vh] md:h-[78vh]"
         />
       </div>
 
