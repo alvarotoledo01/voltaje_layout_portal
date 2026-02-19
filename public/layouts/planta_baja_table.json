@@ -1,0 +1,365 @@
+{
+  "layout": "planta_baja",
+  "rows": [
+    {
+      "shelf_num": 11,
+      "categoria": "Apliques pared",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 12,
+      "categoria": "Apliques pared",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 13,
+      "categoria": "Apliques pared",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 14,
+      "categoria": "Apliques pared",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 15,
+      "categoria": "Apliques pared",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 36,
+      "categoria": "Cables",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 37,
+      "categoria": "Cables",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 38,
+      "categoria": "Cables",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 39,
+      "categoria": "Cables",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 40,
+      "categoria": "Cables",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 61,
+      "categoria": "Colgantes",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 62,
+      "categoria": "Colgantes",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 63,
+      "categoria": "Colgantes",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 64,
+      "categoria": "Colgantes",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 65,
+      "categoria": "Colgantes",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 31,
+      "categoria": "Comando y señalización",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 32,
+      "categoria": "Comando y señalización",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 33,
+      "categoria": "Comando y señalización",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 34,
+      "categoria": "Comando y señalización",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 35,
+      "categoria": "Comando y señalización",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 21,
+      "categoria": "Gabinetes eléctricos",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 22,
+      "categoria": "Gabinetes eléctricos",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 23,
+      "categoria": "Gabinetes eléctricos",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 24,
+      "categoria": "Gabinetes eléctricos",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 25,
+      "categoria": "Gabinetes eléctricos",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 56,
+      "categoria": "Herramientas",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 57,
+      "categoria": "Herramientas",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 58,
+      "categoria": "Herramientas",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 59,
+      "categoria": "Herramientas",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 60,
+      "categoria": "Herramientas",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 51,
+      "categoria": "Iluminación interior",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 52,
+      "categoria": "Iluminación interior",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 53,
+      "categoria": "Iluminación interior",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 54,
+      "categoria": "Iluminación interior",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 55,
+      "categoria": "Iluminación interior",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 1,
+      "categoria": "LED",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 2,
+      "categoria": "LED",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 3,
+      "categoria": "LED",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 4,
+      "categoria": "LED",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 5,
+      "categoria": "LED",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 16,
+      "categoria": "Llaves de luz y fichas",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 17,
+      "categoria": "Llaves de luz y fichas",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 18,
+      "categoria": "Llaves de luz y fichas",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 19,
+      "categoria": "Llaves de luz y fichas",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 20,
+      "categoria": "Llaves de luz y fichas",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 71,
+      "categoria": "Línea hierro",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 72,
+      "categoria": "Línea hierro",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 46,
+      "categoria": "Línea PVC",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 47,
+      "categoria": "Línea PVC",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 48,
+      "categoria": "Línea PVC",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 49,
+      "categoria": "Línea PVC",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 50,
+      "categoria": "Línea PVC",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 41,
+      "categoria": "Pilas y baterías",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 42,
+      "categoria": "Pilas y baterías",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 43,
+      "categoria": "Pilas y baterías",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 44,
+      "categoria": "Pilas y baterías",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 45,
+      "categoria": "Pilas y baterías",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 6,
+      "categoria": "Puesta a tierra",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 7,
+      "categoria": "Puesta a tierra",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 8,
+      "categoria": "Puesta a tierra",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 9,
+      "categoria": "Puesta a tierra",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 10,
+      "categoria": "Puesta a tierra",
+      "proximidad": "cerca"
+    },
+    {
+      "shelf_num": 66,
+      "categoria": "Spots embutidos",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 67,
+      "categoria": "Spots embutidos",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 68,
+      "categoria": "Spots embutidos",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 69,
+      "categoria": "Spots embutidos",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 70,
+      "categoria": "Spots embutidos",
+      "proximidad": "lejos"
+    },
+    {
+      "shelf_num": 26,
+      "categoria": "Térmicas y disyuntores",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 27,
+      "categoria": "Térmicas y disyuntores",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 28,
+      "categoria": "Térmicas y disyuntores",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 29,
+      "categoria": "Térmicas y disyuntores",
+      "proximidad": "medio"
+    },
+    {
+      "shelf_num": 30,
+      "categoria": "Térmicas y disyuntores",
+      "proximidad": "medio"
+    }
+  ]
+}

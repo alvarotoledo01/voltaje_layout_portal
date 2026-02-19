@@ -1,0 +1,470 @@
+{
+  "generated_at_utc": "2026-02-05T02:19:43.574084+00:00",
+  "source": "datamining.category_layout_recommendation",
+  "records": [
+    {
+      "orden": 1,
+      "prioridad_layout": "Muy Alta",
+      "ubicacion_sugerida": "Próxima a la entrada (máxima accesibilidad)",
+      "categoria": "LED",
+      "tipo": "Iluminación",
+      "frecuencia_transacciones": 27518,
+      "unidades_totales_vendidas": 259111,
+      "nivel_rotacion": "Alta",
+      "nivel_coocurrencia": "Alta",
+      "poner_cerca_de": [
+        "Puesta a tierra",
+        "Apliques pared",
+        "Llaves de luz y fichas"
+      ]
+    },
+    {
+      "orden": 2,
+      "prioridad_layout": "Alta",
+      "ubicacion_sugerida": "Cerca de la entrada",
+      "categoria": "Apliques pared",
+      "tipo": "Iluminación",
+      "frecuencia_transacciones": 49028,
+      "unidades_totales_vendidas": 451186,
+      "nivel_rotacion": "Alta",
+      "nivel_coocurrencia": "Media",
+      "poner_cerca_de": [
+        "Llaves de luz y fichas",
+        "Comando y señalización",
+        "Cables"
+      ]
+    },
+    {
+      "orden": 2,
+      "prioridad_layout": "Alta",
+      "ubicacion_sugerida": "Cerca de la entrada",
+      "categoria": "Llaves de luz y fichas",
+      "tipo": "Materiales eléctricos",
+      "frecuencia_transacciones": 37749,
+      "unidades_totales_vendidas": 365310,
+      "nivel_rotacion": "Alta",
+      "nivel_coocurrencia": "Media",
+      "poner_cerca_de": [
+        "Apliques pared",
+        "Comando y señalización",
+        "Cables"
+      ]
+    },
+    {
+      "orden": 2,
+      "prioridad_layout": "Alta",
+      "ubicacion_sugerida": "Cerca de la entrada",
+      "categoria": "Comando y señalización",
+      "tipo": "Materiales eléctricos",
+      "frecuencia_transacciones": 31678,
+      "unidades_totales_vendidas": 313727,
+      "nivel_rotacion": "Alta",
+      "nivel_coocurrencia": "Media",
+      "poner_cerca_de": [
+        "Apliques pared",
+        "Llaves de luz y fichas",
+        "Cables"
+      ]
+    },
+    {
+      "orden": 2,
+      "prioridad_layout": "Alta",
+      "ubicacion_sugerida": "Cerca de la entrada",
+      "categoria": "Cables",
+      "tipo": "Materiales eléctricos",
+      "frecuencia_transacciones": 31114,
+      "unidades_totales_vendidas": 305132,
+      "nivel_rotacion": "Alta",
+      "nivel_coocurrencia": "Media",
+      "poner_cerca_de": [
+        "Apliques pared",
+        "Llaves de luz y fichas",
+        "Comando y señalización"
+      ]
+    },
+    {
+      "orden": 2,
+      "prioridad_layout": "Alta",
+      "ubicacion_sugerida": "Cerca de la entrada",
+      "categoria": "Herramientas",
+      "tipo": "Materiales eléctricos",
+      "frecuencia_transacciones": 27226,
+      "unidades_totales_vendidas": 239868,
+      "nivel_rotacion": "Alta",
+      "nivel_coocurrencia": "Media",
+      "poner_cerca_de": [
+        "Apliques pared",
+        "Llaves de luz y fichas",
+        "Comando y señalización"
+      ]
+    },
+    {
+      "orden": 2,
+      "prioridad_layout": "Alta",
+      "ubicacion_sugerida": "Cerca de la entrada",
+      "categoria": "Gabinetes eléctricos",
+      "tipo": "Materiales eléctricos",
+      "frecuencia_transacciones": 18961,
+      "unidades_totales_vendidas": 158280,
+      "nivel_rotacion": "Media",
+      "nivel_coocurrencia": "Alta",
+      "poner_cerca_de": [
+        "Puesta a tierra",
+        "Apliques pared",
+        "Llaves de luz y fichas"
+      ]
+    },
+    {
+      "orden": 2,
+      "prioridad_layout": "Alta",
+      "ubicacion_sugerida": "Cerca de la entrada",
+      "categoria": "Térmicas y disyuntores",
+      "tipo": "Materiales eléctricos",
+      "frecuencia_transacciones": 15417,
+      "unidades_totales_vendidas": 132925,
+      "nivel_rotacion": "Media",
+      "nivel_coocurrencia": "Alta",
+      "poner_cerca_de": [
+        "Pilas y baterías",
+        "Apliques pared",
+        "Llaves de luz y fichas"
+      ]
+    },
+    {
+      "orden": 2,
+      "prioridad_layout": "Alta",
+      "ubicacion_sugerida": "Cerca de la entrada",
+      "categoria": "Línea PVC",
+      "tipo": "Materiales eléctricos",
+      "frecuencia_transacciones": 9928,
+      "unidades_totales_vendidas": 81741,
+      "nivel_rotacion": "Media",
+      "nivel_coocurrencia": "Alta",
+      "poner_cerca_de": [
+        "Pilas y baterías",
+        "Apliques pared",
+        "Llaves de luz y fichas"
+      ]
+    },
+    {
+      "orden": 3,
+      "prioridad_layout": "Media",
+      "ubicacion_sugerida": "Media distancia",
+      "categoria": "Colgantes",
+      "tipo": "Iluminación",
+      "frecuencia_transacciones": 13368,
+      "unidades_totales_vendidas": 112496,
+      "nivel_rotacion": "Media",
+      "nivel_coocurrencia": "Media",
+      "poner_cerca_de": [
+        "Apliques pared",
+        "Llaves de luz y fichas",
+        "Comando y señalización"
+      ]
+    },
+    {
+      "orden": 3,
+      "prioridad_layout": "Media",
+      "ubicacion_sugerida": "Media distancia",
+      "categoria": "Spots embutidos",
+      "tipo": "Iluminación",
+      "frecuencia_transacciones": 8872,
+      "unidades_totales_vendidas": 71886,
+      "nivel_rotacion": "Media",
+      "nivel_coocurrencia": "Media",
+      "poner_cerca_de": [
+        "Apliques pared",
+        "Llaves de luz y fichas",
+        "Comando y señalización"
+      ]
+    },
+    {
+      "orden": 3,
+      "prioridad_layout": "Media",
+      "ubicacion_sugerida": "Media distancia",
+      "categoria": "Iluminación interior",
+      "tipo": "Iluminación",
+      "frecuencia_transacciones": 6630,
+      "unidades_totales_vendidas": 52133,
+      "nivel_rotacion": "Media",
+      "nivel_coocurrencia": "Media",
+      "poner_cerca_de": [
+        "Pilas y baterías",
+        "Apliques pared",
+        "Llaves de luz y fichas"
+      ]
+    },
+    {
+      "orden": 3,
+      "prioridad_layout": "Media",
+      "ubicacion_sugerida": "Media distancia",
+      "categoria": "Línea hierro",
+      "tipo": "Materiales eléctricos",
+      "frecuencia_transacciones": 6015,
+      "unidades_totales_vendidas": 47985,
+      "nivel_rotacion": "Media",
+      "nivel_coocurrencia": "Media",
+      "poner_cerca_de": [
+        "Baterías",
+        "Apliques pared",
+        "Llaves de luz y fichas"
+      ]
+    },
+    {
+      "orden": 3,
+      "prioridad_layout": "Media",
+      "ubicacion_sugerida": "Media distancia",
+      "categoria": "Línea aluminio",
+      "tipo": "Materiales eléctricos",
+      "frecuencia_transacciones": 51,
+      "unidades_totales_vendidas": 479,
+      "nivel_rotacion": "Baja",
+      "nivel_coocurrencia": "Alta",
+      "poner_cerca_de": [
+        "LED",
+        "Llaves de luz y fichas",
+        "Apliques pared"
+      ]
+    },
+    {
+      "orden": 3,
+      "prioridad_layout": "Media",
+      "ubicacion_sugerida": "Media distancia",
+      "categoria": "Conectores",
+      "tipo": "Materiales eléctricos",
+      "frecuencia_transacciones": 45,
+      "unidades_totales_vendidas": 334,
+      "nivel_rotacion": "Baja",
+      "nivel_coocurrencia": "Alta",
+      "poner_cerca_de": [
+        "LED",
+        "Cables",
+        "Apliques pared"
+      ]
+    },
+    {
+      "orden": 3,
+      "prioridad_layout": "Media",
+      "ubicacion_sugerida": "Media distancia",
+      "categoria": "Baterías",
+      "tipo": "Materiales eléctricos",
+      "frecuencia_transacciones": 20,
+      "unidades_totales_vendidas": 148,
+      "nivel_rotacion": "Baja",
+      "nivel_coocurrencia": "Alta",
+      "poner_cerca_de": [
+        "Línea hierro",
+        "Apliques pared",
+        "Térmicas y disyuntores"
+      ]
+    },
+    {
+      "orden": 3,
+      "prioridad_layout": "Media",
+      "ubicacion_sugerida": "Media distancia",
+      "categoria": "Puesta a tierra",
+      "tipo": "Materiales eléctricos",
+      "frecuencia_transacciones": 10,
+      "unidades_totales_vendidas": 75,
+      "nivel_rotacion": "Baja",
+      "nivel_coocurrencia": "Alta",
+      "poner_cerca_de": [
+        "Gabinetes eléctricos",
+        "LED",
+        "Térmicas y disyuntores"
+      ]
+    },
+    {
+      "orden": 3,
+      "prioridad_layout": "Media",
+      "ubicacion_sugerida": "Media distancia",
+      "categoria": "Accesorios de iluminación",
+      "tipo": "Iluminación",
+      "frecuencia_transacciones": 9,
+      "unidades_totales_vendidas": 75,
+      "nivel_rotacion": "Baja",
+      "nivel_coocurrencia": "Alta",
+      "poner_cerca_de": [
+        "Térmicas y disyuntores",
+        "Línea PVC",
+        "Apliques pared"
+      ]
+    },
+    {
+      "orden": 3,
+      "prioridad_layout": "Media",
+      "ubicacion_sugerida": "Media distancia",
+      "categoria": "Pilas y baterías",
+      "tipo": "Materiales eléctricos",
+      "frecuencia_transacciones": 6,
+      "unidades_totales_vendidas": 48,
+      "nivel_rotacion": "Baja",
+      "nivel_coocurrencia": "Alta",
+      "poner_cerca_de": [
+        "Línea PVC",
+        "Iluminación interior",
+        "Térmicas y disyuntores"
+      ]
+    },
+    {
+      "orden": 4,
+      "prioridad_layout": "Baja",
+      "ubicacion_sugerida": "Lejos de la entrada",
+      "categoria": "Apliques techo",
+      "tipo": "Iluminación",
+      "frecuencia_transacciones": 5193,
+      "unidades_totales_vendidas": 41556,
+      "nivel_rotacion": "Media",
+      "nivel_coocurrencia": "Baja",
+      "poner_cerca_de": [
+        "Apliques pared",
+        "Llaves de luz y fichas",
+        "Comando y señalización"
+      ]
+    },
+    {
+      "orden": 4,
+      "prioridad_layout": "Baja",
+      "ubicacion_sugerida": "Lejos de la entrada",
+      "categoria": "Lámparas de pie y veladores",
+      "tipo": "Iluminación",
+      "frecuencia_transacciones": 5141,
+      "unidades_totales_vendidas": 40445,
+      "nivel_rotacion": "Media",
+      "nivel_coocurrencia": "Baja",
+      "poner_cerca_de": [
+        "Apliques pared",
+        "Llaves de luz y fichas",
+        "Comando y señalización"
+      ]
+    },
+    {
+      "orden": 4,
+      "prioridad_layout": "Baja",
+      "ubicacion_sugerida": "Lejos de la entrada",
+      "categoria": "Iluminación exterior",
+      "tipo": "Iluminación",
+      "frecuencia_transacciones": 3507,
+      "unidades_totales_vendidas": 27732,
+      "nivel_rotacion": "Baja",
+      "nivel_coocurrencia": "Baja",
+      "poner_cerca_de": [
+        "Apliques pared",
+        "Llaves de luz y fichas",
+        "Comando y señalización"
+      ]
+    },
+    {
+      "orden": 4,
+      "prioridad_layout": "Baja",
+      "ubicacion_sugerida": "Lejos de la entrada",
+      "categoria": "Emergencia y seguridad",
+      "tipo": "Materiales eléctricos",
+      "frecuencia_transacciones": 2171,
+      "unidades_totales_vendidas": 16584,
+      "nivel_rotacion": "Baja",
+      "nivel_coocurrencia": "Baja",
+      "poner_cerca_de": [
+        "Apliques pared",
+        "Cajas",
+        "Llaves de luz y fichas"
+      ]
+    },
+    {
+      "orden": 4,
+      "prioridad_layout": "Baja",
+      "ubicacion_sugerida": "Lejos de la entrada",
+      "categoria": "Ventilación",
+      "tipo": "Iluminación",
+      "frecuencia_transacciones": 1574,
+      "unidades_totales_vendidas": 12297,
+      "nivel_rotacion": "Baja",
+      "nivel_coocurrencia": "Baja",
+      "poner_cerca_de": [
+        "Adhesivos",
+        "Apliques pared",
+        "Llaves de luz y fichas"
+      ]
+    },
+    {
+      "orden": 4,
+      "prioridad_layout": "Baja",
+      "ubicacion_sugerida": "Lejos de la entrada",
+      "categoria": "Timbres y porteros",
+      "tipo": "Materiales eléctricos",
+      "frecuencia_transacciones": 620,
+      "unidades_totales_vendidas": 4776,
+      "nivel_rotacion": "Baja",
+      "nivel_coocurrencia": "Media",
+      "poner_cerca_de": [
+        "Apliques pared",
+        "Gabinetes eléctricos",
+        "Plafones"
+      ]
+    },
+    {
+      "orden": 4,
+      "prioridad_layout": "Baja",
+      "ubicacion_sugerida": "Lejos de la entrada",
+      "categoria": "Cajas",
+      "tipo": "Materiales eléctricos",
+      "frecuencia_transacciones": 213,
+      "unidades_totales_vendidas": 1598,
+      "nivel_rotacion": "Baja",
+      "nivel_coocurrencia": "Media",
+      "poner_cerca_de": [
+        "Apliques exterior",
+        "Apliques pared",
+        "Emergencia y seguridad"
+      ]
+    },
+    {
+      "orden": 4,
+      "prioridad_layout": "Baja",
+      "ubicacion_sugerida": "Lejos de la entrada",
+      "categoria": "Plafones",
+      "tipo": "Iluminación",
+      "frecuencia_transacciones": 127,
+      "unidades_totales_vendidas": 1037,
+      "nivel_rotacion": "Baja",
+      "nivel_coocurrencia": "Media",
+      "poner_cerca_de": [
+        "Herramientas",
+        "Comando y señalización",
+        "Timbres y porteros"
+      ]
+    },
+    {
+      "orden": 4,
+      "prioridad_layout": "Baja",
+      "ubicacion_sugerida": "Lejos de la entrada",
+      "categoria": "Apliques exterior",
+      "tipo": "Iluminación",
+      "frecuencia_transacciones": 77,
+      "unidades_totales_vendidas": 576,
+      "nivel_rotacion": "Baja",
+      "nivel_coocurrencia": "Media",
+      "poner_cerca_de": [
+        "Cajas",
+        "Cables",
+        "Apliques pared"
+      ]
+    },
+    {
+      "orden": 4,
+      "prioridad_layout": "Baja",
+      "ubicacion_sugerida": "Lejos de la entrada",
+      "categoria": "Adhesivos",
+      "tipo": "Materiales eléctricos",
+      "frecuencia_transacciones": 53,
+      "unidades_totales_vendidas": 434,
+      "nivel_rotacion": "Baja",
+      "nivel_coocurrencia": "Media",
+      "poner_cerca_de": [
+        "Ventilación",
+        "Línea PVC",
+        "Iluminación exterior"
+      ]
+    }
+  ]
+}

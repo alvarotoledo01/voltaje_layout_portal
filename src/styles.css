@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Small polish for embedded Bokeh pages */
+iframe {
+  background: white;
+}
+
+html,
+body {
+  background: #ffffff;
+}
